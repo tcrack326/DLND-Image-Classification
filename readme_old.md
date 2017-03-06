@@ -568,7 +568,7 @@ Tune the following parameters:
 ```python
 # TODO: Tune Parameters
 epochs = 10
-batch_size = 64
+batch_size = 8
 keep_probability = 0.25
 ```
 
@@ -596,55 +596,55 @@ with tf.Session() as sess:
 
     Checking the Training on a Single Batch...
     Epoch  1, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.15
-    Training Cost:  2.27319
-    Validation Accuracy:  0.171
-    Validation Cost:  2.24857
+    Training Accuracy:  0.375
+    Training Cost:  1.66624
+    Validation Accuracy:  0.275
+    Validation Cost:  1.9401
     Epoch  2, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.275
-    Training Cost:  2.12337
-    Validation Accuracy:  0.2968
-    Validation Cost:  1.94878
+    Training Accuracy:  0.5
+    Training Cost:  1.45526
+    Validation Accuracy:  0.383
+    Validation Cost:  1.69666
     Epoch  3, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.3
-    Training Cost:  2.04618
-    Validation Accuracy:  0.344
-    Validation Cost:  1.81867
+    Training Accuracy:  0.375
+    Training Cost:  1.37761
+    Validation Accuracy:  0.432
+    Validation Cost:  1.55396
     Epoch  4, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.375
-    Training Cost:  1.95657
-    Validation Accuracy:  0.3688
-    Validation Cost:  1.73769
+    Training Accuracy:  0.5
+    Training Cost:  1.34489
+    Validation Accuracy:  0.4588
+    Validation Cost:  1.49036
     Epoch  5, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.375
-    Training Cost:  1.90309
-    Validation Accuracy:  0.392
-    Validation Cost:  1.67865
+    Training Accuracy:  0.5
+    Training Cost:  1.3474
+    Validation Accuracy:  0.478
+    Validation Cost:  1.42916
     Epoch  6, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.4
-    Training Cost:  1.83261
-    Validation Accuracy:  0.4242
-    Validation Cost:  1.59388
+    Training Accuracy:  0.5
+    Training Cost:  1.38158
+    Validation Accuracy:  0.4958
+    Validation Cost:  1.40113
     Epoch  7, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.4
-    Training Cost:  1.79138
-    Validation Accuracy:  0.4386
-    Validation Cost:  1.55882
+    Training Accuracy:  0.625
+    Training Cost:  1.32085
+    Validation Accuracy:  0.507
+    Validation Cost:  1.36216
     Epoch  8, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.45
-    Training Cost:  1.73879
-    Validation Accuracy:  0.4522
-    Validation Cost:  1.5181
+    Training Accuracy:  0.625
+    Training Cost:  1.33066
+    Validation Accuracy:  0.5216
+    Validation Cost:  1.33063
     Epoch  9, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.425
-    Training Cost:  1.73429
-    Validation Accuracy:  0.459
-    Validation Cost:  1.49337
+    Training Accuracy:  0.625
+    Training Cost:  1.30207
+    Validation Accuracy:  0.5382
+    Validation Cost:  1.29451
     Epoch 10, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.45
-    Training Cost:  1.6702
-    Validation Accuracy:  0.47
-    Validation Cost:  1.47417
+    Training Accuracy:  0.75
+    Training Cost:  1.28085
+    Validation Accuracy:  0.5414
+    Validation Cost:  1.28074
 
 
 ### Fully Train the Model
@@ -679,255 +679,255 @@ with tf.Session() as sess:
 
     Training...
     Epoch  1, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.125
-    Training Cost:  2.2197
-    Validation Accuracy:  0.1894
-    Validation Cost:  2.13727
+    Training Accuracy:  0.375
+    Training Cost:  1.71526
+    Validation Accuracy:  0.2768
+    Validation Cost:  1.92033
     Epoch  1, CIFAR-10 Batch 2:  
     Training Accuracy:  0.25
-    Training Cost:  2.12575
-    Validation Accuracy:  0.2762
-    Validation Cost:  1.97483
+    Training Cost:  1.8568
+    Validation Accuracy:  0.3564
+    Validation Cost:  1.73134
     Epoch  1, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.4
-    Training Cost:  1.715
-    Validation Accuracy:  0.3294
-    Validation Cost:  1.86566
-    Epoch  1, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.275
-    Training Cost:  1.79516
-    Validation Accuracy:  0.3586
-    Validation Cost:  1.76355
-    Epoch  1, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.35
-    Training Cost:  1.82146
-    Validation Accuracy:  0.403
-    Validation Cost:  1.67082
-    Epoch  2, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.375
-    Training Cost:  1.84505
-    Validation Accuracy:  0.4102
-    Validation Cost:  1.62543
-    Epoch  2, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.45
-    Training Cost:  1.74968
-    Validation Accuracy:  0.4304
-    Validation Cost:  1.55125
-    Epoch  2, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.525
-    Training Cost:  1.34011
-    Validation Accuracy:  0.4422
-    Validation Cost:  1.51804
-    Epoch  2, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.45
-    Training Cost:  1.52708
-    Validation Accuracy:  0.4598
-    Validation Cost:  1.48203
-    Epoch  2, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.45
-    Training Cost:  1.5827
-    Validation Accuracy:  0.4788
-    Validation Cost:  1.45299
-    Epoch  3, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.425
-    Training Cost:  1.70756
-    Validation Accuracy:  0.4786
-    Validation Cost:  1.43984
-    Epoch  3, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.475
-    Training Cost:  1.52745
-    Validation Accuracy:  0.4906
-    Validation Cost:  1.40914
-    Epoch  3, CIFAR-10 Batch 3:  
     Training Accuracy:  0.5
-    Training Cost:  1.18974
-    Validation Accuracy:  0.492
-    Validation Cost:  1.38865
+    Training Cost:  1.27314
+    Validation Accuracy:  0.408
+    Validation Cost:  1.58428
+    Epoch  1, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.25
+    Training Cost:  1.74556
+    Validation Accuracy:  0.4476
+    Validation Cost:  1.49885
+    Epoch  1, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.25
+    Training Cost:  1.79484
+    Validation Accuracy:  0.47
+    Validation Cost:  1.44961
+    Epoch  2, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.30369
+    Validation Accuracy:  0.4926
+    Validation Cost:  1.40561
+    Epoch  2, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.375
+    Training Cost:  1.59937
+    Validation Accuracy:  0.4508
+    Validation Cost:  1.49658
+    Epoch  2, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.625
+    Training Cost:  1.06555
+    Validation Accuracy:  0.5132
+    Validation Cost:  1.33131
+    Epoch  2, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.375
+    Training Cost:  1.35905
+    Validation Accuracy:  0.5272
+    Validation Cost:  1.30397
+    Epoch  2, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.625
+    Training Cost:  1.6646
+    Validation Accuracy:  0.5416
+    Validation Cost:  1.2734
+    Epoch  3, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.35288
+    Validation Accuracy:  0.5546
+    Validation Cost:  1.24636
+    Epoch  3, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.375
+    Training Cost:  1.3682
+    Validation Accuracy:  0.5144
+    Validation Cost:  1.334
+    Epoch  3, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.625
+    Training Cost:  0.977565
+    Validation Accuracy:  0.5632
+    Validation Cost:  1.20478
     Epoch  3, CIFAR-10 Batch 4:  
     Training Accuracy:  0.5
-    Training Cost:  1.43077
-    Validation Accuracy:  0.4976
-    Validation Cost:  1.37817
+    Training Cost:  1.21123
+    Validation Accuracy:  0.567
+    Validation Cost:  1.19341
     Epoch  3, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.6
-    Training Cost:  1.49151
-    Validation Accuracy:  0.5054
-    Validation Cost:  1.3594
-    Epoch  4, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.475
-    Training Cost:  1.57504
-    Validation Accuracy:  0.5166
-    Validation Cost:  1.34377
-    Epoch  4, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.575
-    Training Cost:  1.45004
-    Validation Accuracy:  0.518
-    Validation Cost:  1.33739
-    Epoch  4, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.55
-    Training Cost:  1.13243
-    Validation Accuracy:  0.5192
-    Validation Cost:  1.32222
-    Epoch  4, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.475
-    Training Cost:  1.38477
-    Validation Accuracy:  0.5204
-    Validation Cost:  1.32724
-    Epoch  4, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.525
-    Training Cost:  1.43071
-    Validation Accuracy:  0.5328
-    Validation Cost:  1.29719
-    Epoch  5, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.5
-    Training Cost:  1.51953
-    Validation Accuracy:  0.5342
-    Validation Cost:  1.29611
-    Epoch  5, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.55
-    Training Cost:  1.38918
-    Validation Accuracy:  0.5292
-    Validation Cost:  1.28864
-    Epoch  5, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.55
-    Training Cost:  1.09433
-    Validation Accuracy:  0.5328
-    Validation Cost:  1.2829
-    Epoch  5, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.55
-    Training Cost:  1.29441
-    Validation Accuracy:  0.5434
-    Validation Cost:  1.26814
-    Epoch  5, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.575
-    Training Cost:  1.39243
-    Validation Accuracy:  0.547
-    Validation Cost:  1.24484
-    Epoch  6, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.5
-    Training Cost:  1.44492
-    Validation Accuracy:  0.5516
-    Validation Cost:  1.25209
-    Epoch  6, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.575
-    Training Cost:  1.327
-    Validation Accuracy:  0.5518
-    Validation Cost:  1.23438
-    Epoch  6, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.55
-    Training Cost:  1.03484
-    Validation Accuracy:  0.5516
-    Validation Cost:  1.23152
-    Epoch  6, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.575
-    Training Cost:  1.2622
-    Validation Accuracy:  0.5566
-    Validation Cost:  1.21779
-    Epoch  6, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.575
-    Training Cost:  1.34108
-    Validation Accuracy:  0.5566
-    Validation Cost:  1.21531
-    Epoch  7, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.525
-    Training Cost:  1.37853
-    Validation Accuracy:  0.5696
-    Validation Cost:  1.20085
-    Epoch  7, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.55
-    Training Cost:  1.23777
-    Validation Accuracy:  0.557
-    Validation Cost:  1.22656
-    Epoch  7, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.6
-    Training Cost:  0.979402
-    Validation Accuracy:  0.5708
-    Validation Cost:  1.18867
-    Epoch  7, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.575
-    Training Cost:  1.20626
-    Validation Accuracy:  0.575
-    Validation Cost:  1.17593
-    Epoch  7, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.55
-    Training Cost:  1.33785
-    Validation Accuracy:  0.5776
-    Validation Cost:  1.16729
-    Epoch  8, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.575
-    Training Cost:  1.31642
-    Validation Accuracy:  0.585
-    Validation Cost:  1.16582
-    Epoch  8, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.55
-    Training Cost:  1.22151
-    Validation Accuracy:  0.5772
-    Validation Cost:  1.17756
-    Epoch  8, CIFAR-10 Batch 3:  
     Training Accuracy:  0.625
-    Training Cost:  0.981666
-    Validation Accuracy:  0.5826
-    Validation Cost:  1.16124
+    Training Cost:  1.532
+    Validation Accuracy:  0.578
+    Validation Cost:  1.1671
+    Epoch  4, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.29728
+    Validation Accuracy:  0.586
+    Validation Cost:  1.14752
+    Epoch  4, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.5
+    Training Cost:  1.04906
+    Validation Accuracy:  0.5722
+    Validation Cost:  1.19603
+    Epoch  4, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.75
+    Training Cost:  0.892571
+    Validation Accuracy:  0.6026
+    Validation Cost:  1.1066
+    Epoch  4, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.375
+    Training Cost:  1.15794
+    Validation Accuracy:  0.6008
+    Validation Cost:  1.10459
+    Epoch  4, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.5
+    Training Cost:  1.57312
+    Validation Accuracy:  0.601
+    Validation Cost:  1.09847
+    Epoch  5, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.14057
+    Validation Accuracy:  0.6184
+    Validation Cost:  1.07201
+    Epoch  5, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.75
+    Training Cost:  0.863773
+    Validation Accuracy:  0.6114
+    Validation Cost:  1.09477
+    Epoch  5, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.75
+    Training Cost:  0.809269
+    Validation Accuracy:  0.625
+    Validation Cost:  1.04717
+    Epoch  5, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.5
+    Training Cost:  1.19065
+    Validation Accuracy:  0.6284
+    Validation Cost:  1.042
+    Epoch  5, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.625
+    Training Cost:  1.44225
+    Validation Accuracy:  0.6328
+    Validation Cost:  1.02093
+    Epoch  6, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.08509
+    Validation Accuracy:  0.6368
+    Validation Cost:  1.03068
+    Epoch  6, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.75
+    Training Cost:  0.73836
+    Validation Accuracy:  0.6426
+    Validation Cost:  1.004
+    Epoch  6, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.875
+    Training Cost:  0.725209
+    Validation Accuracy:  0.6476
+    Validation Cost:  0.988569
+    Epoch  6, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.375
+    Training Cost:  1.22157
+    Validation Accuracy:  0.6434
+    Validation Cost:  1.00388
+    Epoch  6, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.5
+    Training Cost:  1.36685
+    Validation Accuracy:  0.6604
+    Validation Cost:  0.968926
+    Epoch  7, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  1.00784
+    Validation Accuracy:  0.6594
+    Validation Cost:  0.972436
+    Epoch  7, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.75
+    Training Cost:  0.646791
+    Validation Accuracy:  0.636
+    Validation Cost:  1.04145
+    Epoch  7, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.875
+    Training Cost:  0.809236
+    Validation Accuracy:  0.6548
+    Validation Cost:  0.973661
+    Epoch  7, CIFAR-10 Batch 4:  
+    Training Accuracy:  0.75
+    Training Cost:  0.989226
+    Validation Accuracy:  0.661
+    Validation Cost:  0.961633
+    Epoch  7, CIFAR-10 Batch 5:  
+    Training Accuracy:  0.5
+    Training Cost:  1.23975
+    Validation Accuracy:  0.6776
+    Validation Cost:  0.920906
+    Epoch  8, CIFAR-10 Batch 1:  
+    Training Accuracy:  0.625
+    Training Cost:  0.965239
+    Validation Accuracy:  0.6734
+    Validation Cost:  0.919227
+    Epoch  8, CIFAR-10 Batch 2:  
+    Training Accuracy:  0.875
+    Training Cost:  0.592967
+    Validation Accuracy:  0.6716
+    Validation Cost:  0.936392
+    Epoch  8, CIFAR-10 Batch 3:  
+    Training Accuracy:  0.75
+    Training Cost:  0.714441
+    Validation Accuracy:  0.6822
+    Validation Cost:  0.897387
     Epoch  8, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.55
-    Training Cost:  1.17098
-    Validation Accuracy:  0.59
-    Validation Cost:  1.14925
+    Training Accuracy:  0.625
+    Training Cost:  1.0069
+    Validation Accuracy:  0.6872
+    Validation Cost:  0.893442
     Epoch  8, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.575
-    Training Cost:  1.27607
-    Validation Accuracy:  0.5914
-    Validation Cost:  1.13536
+    Training Accuracy:  0.375
+    Training Cost:  1.3392
+    Validation Accuracy:  0.6756
+    Validation Cost:  0.918012
     Epoch  9, CIFAR-10 Batch 1:  
     Training Accuracy:  0.625
-    Training Cost:  1.23394
-    Validation Accuracy:  0.5976
-    Validation Cost:  1.1244
+    Training Cost:  0.855529
+    Validation Accuracy:  0.6902
+    Validation Cost:  0.888263
     Epoch  9, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.6
-    Training Cost:  1.15621
-    Validation Accuracy:  0.5912
-    Validation Cost:  1.1328
+    Training Accuracy:  0.75
+    Training Cost:  0.562512
+    Validation Accuracy:  0.6842
+    Validation Cost:  0.898722
     Epoch  9, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.725
-    Training Cost:  0.913388
-    Validation Accuracy:  0.5968
-    Validation Cost:  1.12269
+    Training Accuracy:  0.875
+    Training Cost:  0.555599
+    Validation Accuracy:  0.6946
+    Validation Cost:  0.865276
     Epoch  9, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.55
-    Training Cost:  1.12702
-    Validation Accuracy:  0.6048
-    Validation Cost:  1.10327
+    Training Accuracy:  0.625
+    Training Cost:  0.9513
+    Validation Accuracy:  0.696
+    Validation Cost:  0.865924
     Epoch  9, CIFAR-10 Batch 5:  
-    Training Accuracy:  0.575
-    Training Cost:  1.24223
-    Validation Accuracy:  0.5974
-    Validation Cost:  1.11162
+    Training Accuracy:  0.625
+    Training Cost:  1.20284
+    Validation Accuracy:  0.683
+    Validation Cost:  0.900452
     Epoch 10, CIFAR-10 Batch 1:  
-    Training Accuracy:  0.6
-    Training Cost:  1.1752
-    Validation Accuracy:  0.6054
-    Validation Cost:  1.11422
+    Training Accuracy:  0.625
+    Training Cost:  0.811815
+    Validation Accuracy:  0.7034
+    Validation Cost:  0.853281
     Epoch 10, CIFAR-10 Batch 2:  
-    Training Accuracy:  0.55
-    Training Cost:  1.10549
-    Validation Accuracy:  0.5976
-    Validation Cost:  1.11213
+    Training Accuracy:  0.75
+    Training Cost:  0.535571
+    Validation Accuracy:  0.6986
+    Validation Cost:  0.86171
     Epoch 10, CIFAR-10 Batch 3:  
-    Training Accuracy:  0.7
-    Training Cost:  0.889659
-    Validation Accuracy:  0.607
-    Validation Cost:  1.09954
+    Training Accuracy:  0.875
+    Training Cost:  0.60727
+    Validation Accuracy:  0.7034
+    Validation Cost:  0.839756
     Epoch 10, CIFAR-10 Batch 4:  
-    Training Accuracy:  0.55
-    Training Cost:  1.10095
-    Validation Accuracy:  0.613
-    Validation Cost:  1.0761
+    Training Accuracy:  0.625
+    Training Cost:  0.881466
+    Validation Accuracy:  0.7044
+    Validation Cost:  0.850327
     Epoch 10, CIFAR-10 Batch 5:  
     Training Accuracy:  0.625
-    Training Cost:  1.19469
-    Validation Accuracy:  0.6074
-    Validation Cost:  1.08702
+    Training Cost:  1.20349
+    Validation Accuracy:  0.711
+    Validation Cost:  0.834748
 
 
 # Checkpoint
@@ -1002,7 +1002,7 @@ def test_model():
 test_model()
 ```
 
-    Testing Accuracy: 0.6137539808917197
+    Testing Accuracy: 0.6976
     
 
 
